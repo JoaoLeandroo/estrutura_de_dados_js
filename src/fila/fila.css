@@ -1,0 +1,46 @@
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pilha {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.pilha input {
+    height: 44px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid green;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.pilha button {
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.pilha button:hover {
+    background-color: gray;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+}
